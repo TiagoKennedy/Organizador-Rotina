@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Organizador da Rotina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Organizador da Rotina 💛</h1>
+
+    <div class="input-area">
+        <input type="date" id="data">
+        <input type="time" id="horario">
+        <input type="text" id="tarefa" placeholder="Digite a tarefa">
+        <button onclick="adicionarTarefa()">Adicionar</button>
+
+    </div>
+/
+    <h2>📅 Hoje</h2>
+<ul id="tarefasHoje"></ul>
+
+<h2>⏳ Próximas</h2>
+<ul id="tarefasFuturas"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
